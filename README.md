@@ -1,0 +1,2 @@
+# Malaria Diagnostics App
+ 
