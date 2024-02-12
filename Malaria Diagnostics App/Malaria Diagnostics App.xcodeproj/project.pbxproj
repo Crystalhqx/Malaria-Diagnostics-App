@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAEDD2FB2B79D711001B06C8 /* Malaria_Diagnostics_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDD2FA2B79D711001B06C8 /* Malaria_Diagnostics_AppApp.swift */; };
+		BAEDD2FD2B79D711001B06C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDD2FC2B79D711001B06C8 /* ContentView.swift */; };
+		BAEDD2FF2B79D712001B06C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEDD2FE2B79D712001B06C8 /* Assets.xcassets */; };
+		BAEDD3022B79D712001B06C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEDD3012B79D712001B06C8 /* Preview Assets.xcassets */; };
+		BAEDD30C2B79D712001B06C8 /* Malaria_Diagnostics_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDD30B2B79D712001B06C8 /* Malaria_Diagnostics_AppTests.swift */; };
+		BAEDD3162B79D712001B06C8 /* Malaria_Diagnostics_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDD3152B79D712001B06C8 /* Malaria_Diagnostics_AppUITests.swift */; };
+		BAEDD3182B79D712001B06C8 /* Malaria_Diagnostics_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDD3172B79D712001B06C8 /* Malaria_Diagnostics_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAEDD3082B79D712001B06C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAEDD2EF2B79D711001B06C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAEDD2F62B79D711001B06C8;
+			remoteInfo = "Malaria Diagnostics App";
+		};
+		BAEDD3122B79D712001B06C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAEDD2EF2B79D711001B06C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAEDD2F62B79D711001B06C8;
+			remoteInfo = "Malaria Diagnostics App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAEDD2F72B79D711001B06C8 /* Malaria Diagnostics App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Malaria Diagnostics App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEDD2FA2B79D711001B06C8 /* Malaria_Diagnostics_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Malaria_Diagnostics_AppApp.swift; sourceTree = "<group>"; };
+		BAEDD2FC2B79D711001B06C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAEDD2FE2B79D712001B06C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAEDD3012B79D712001B06C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAEDD3072B79D712001B06C8 /* Malaria Diagnostics AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Malaria Diagnostics AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEDD30B2B79D712001B06C8 /* Malaria_Diagnostics_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Malaria_Diagnostics_AppTests.swift; sourceTree = "<group>"; };
+		BAEDD3112B79D712001B06C8 /* Malaria Diagnostics AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Malaria Diagnostics AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEDD3152B79D712001B06C8 /* Malaria_Diagnostics_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Malaria_Diagnostics_AppUITests.swift; sourceTree = "<group>"; };
+		BAEDD3172B79D712001B06C8 /* Malaria_Diagnostics_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Malaria_Diagnostics_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAEDD2F42B79D711001B06C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEDD3042B79D712001B06C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEDD30E2B79D712001B06C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAEDD2EE2B79D711001B06C8 = {
+			isa = PBXGroup;
+			children = (
+				BAEDD2F92B79D711001B06C8 /* Malaria Diagnostics App */,
+				BAEDD30A2B79D712001B06C8 /* Malaria Diagnostics AppTests */,
+				BAEDD3142B79D712001B06C8 /* Malaria Diagnostics AppUITests */,
+				BAEDD2F82B79D711001B06C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAEDD2F82B79D711001B06C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAEDD2F72B79D711001B06C8 /* Malaria Diagnostics App.app */,
+				BAEDD3072B79D712001B06C8 /* Malaria Diagnostics AppTests.xctest */,
+				BAEDD3112B79D712001B06C8 /* Malaria Diagnostics AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAEDD2F92B79D711001B06C8 /* Malaria Diagnostics App */ = {
+			isa = PBXGroup;
+			children = (
+				BAEDD2FA2B79D711001B06C8 /* Malaria_Diagnostics_AppApp.swift */,
+				BAEDD2FC2B79D711001B06C8 /* ContentView.swift */,
+				BAEDD2FE2B79D712001B06C8 /* Assets.xcassets */,
+				BAEDD3002B79D712001B06C8 /* Preview Content */,
+			);
+			path = "Malaria Diagnostics App";
+			sourceTree = "<group>";
+		};
+		BAEDD3002B79D712001B06C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BAEDD3012B79D712001B06C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAEDD30A2B79D712001B06C8 /* Malaria Diagnostics AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAEDD30B2B79D712001B06C8 /* Malaria_Diagnostics_AppTests.swift */,
+			);
+			path = "Malaria Diagnostics AppTests";
+			sourceTree = "<group>";
+		};
+		BAEDD3142B79D712001B06C8 /* Malaria Diagnostics AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAEDD3152B79D712001B06C8 /* Malaria_Diagnostics_AppUITests.swift */,
+				BAEDD3172B79D712001B06C8 /* Malaria_Diagnostics_AppUITestsLaunchTests.swift */,
+			);
+			path = "Malaria Diagnostics AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAEDD2F62B79D711001B06C8 /* Malaria Diagnostics App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEDD31B2B79D712001B06C8 /* Build configuration list for PBXNativeTarget "Malaria Diagnostics App" */;
+			buildPhases = (
+				BAEDD2F32B79D711001B06C8 /* Sources */,
+				BAEDD2F42B79D711001B06C8 /* Frameworks */,
+				BAEDD2F52B79D711001B06C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Malaria Diagnostics App";
+			productName = "Malaria Diagnostics App";
+			productReference = BAEDD2F72B79D711001B06C8 /* Malaria Diagnostics App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAEDD3062B79D712001B06C8 /* Malaria Diagnostics AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEDD31E2B79D712001B06C8 /* Build configuration list for PBXNativeTarget "Malaria Diagnostics AppTests" */;
+			buildPhases = (
+				BAEDD3032B79D712001B06C8 /* Sources */,
+				BAEDD3042B79D712001B06C8 /* Frameworks */,
+				BAEDD3052B79D712001B06C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAEDD3092B79D712001B06C8 /* PBXTargetDependency */,
+			);
+			name = "Malaria Diagnostics AppTests";
+			productName = "Malaria Diagnostics AppTests";
+			productReference = BAEDD3072B79D712001B06C8 /* Malaria Diagnostics AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAEDD3102B79D712001B06C8 /* Malaria Diagnostics AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEDD3212B79D712001B06C8 /* Build configuration list for PBXNativeTarget "Malaria Diagnostics AppUITests" */;
+			buildPhases = (
+				BAEDD30D2B79D712001B06C8 /* Sources */,
+				BAEDD30E2B79D712001B06C8 /* Frameworks */,
+				BAEDD30F2B79D712001B06C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAEDD3132B79D712001B06C8 /* PBXTargetDependency */,
+			);
+			name = "Malaria Diagnostics AppUITests";
+			productName = "Malaria Diagnostics AppUITests";
+			productReference = BAEDD3112B79D712001B06C8 /* Malaria Diagnostics AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAEDD2EF2B79D711001B06C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BAEDD2F62B79D711001B06C8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BAEDD3062B79D712001B06C8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BAEDD2F62B79D711001B06C8;
+					};
+					BAEDD3102B79D712001B06C8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BAEDD2F62B79D711001B06C8;
+					};
+				};
+			};
+			buildConfigurationList = BAEDD2F22B79D711001B06C8 /* Build configuration list for PBXProject "Malaria Diagnostics App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAEDD2EE2B79D711001B06C8;
+			productRefGroup = BAEDD2F82B79D711001B06C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAEDD2F62B79D711001B06C8 /* Malaria Diagnostics App */,
+				BAEDD3062B79D712001B06C8 /* Malaria Diagnostics AppTests */,
+				BAEDD3102B79D712001B06C8 /* Malaria Diagnostics AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAEDD2F52B79D711001B06C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEDD3022B79D712001B06C8 /* Preview Assets.xcassets in Resources */,
+				BAEDD2FF2B79D712001B06C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEDD3052B79D712001B06C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEDD30F2B79D712001B06C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAEDD2F32B79D711001B06C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEDD2FD2B79D711001B06C8 /* ContentView.swift in Sources */,
+				BAEDD2FB2B79D711001B06C8 /* Malaria_Diagnostics_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEDD3032B79D712001B06C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEDD30C2B79D712001B06C8 /* Malaria_Diagnostics_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEDD30D2B79D712001B06C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEDD3162B79D712001B06C8 /* Malaria_Diagnostics_AppUITests.swift in Sources */,
+				BAEDD3182B79D712001B06C8 /* Malaria_Diagnostics_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAEDD3092B79D712001B06C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAEDD2F62B79D711001B06C8 /* Malaria Diagnostics App */;
+			targetProxy = BAEDD3082B79D712001B06C8 /* PBXContainerItemProxy */;
+		};
+		BAEDD3132B79D712001B06C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAEDD2F62B79D711001B06C8 /* Malaria Diagnostics App */;
+			targetProxy = BAEDD3122B79D712001B06C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BAEDD3192B79D712001B06C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAEDD31A2B79D712001B06C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAEDD31C2B79D712001B06C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Malaria Diagnostics App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "appathon.Malaria-Diagnostics-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAEDD31D2B79D712001B06C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Malaria Diagnostics App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "appathon.Malaria-Diagnostics-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAEDD31F2B79D712001B06C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "appathon.Malaria-Diagnostics-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Malaria Diagnostics App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Malaria Diagnostics App";
+			};
+			name = Debug;
+		};
+		BAEDD3202B79D712001B06C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "appathon.Malaria-Diagnostics-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Malaria Diagnostics App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Malaria Diagnostics App";
+			};
+			name = Release;
+		};
+		BAEDD3222B79D712001B06C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "appathon.Malaria-Diagnostics-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Malaria Diagnostics App";
+			};
+			name = Debug;
+		};
+		BAEDD3232B79D712001B06C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "appathon.Malaria-Diagnostics-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Malaria Diagnostics App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAEDD2F22B79D711001B06C8 /* Build configuration list for PBXProject "Malaria Diagnostics App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEDD3192B79D712001B06C8 /* Debug */,
+				BAEDD31A2B79D712001B06C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEDD31B2B79D712001B06C8 /* Build configuration list for PBXNativeTarget "Malaria Diagnostics App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEDD31C2B79D712001B06C8 /* Debug */,
+				BAEDD31D2B79D712001B06C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEDD31E2B79D712001B06C8 /* Build configuration list for PBXNativeTarget "Malaria Diagnostics AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEDD31F2B79D712001B06C8 /* Debug */,
+				BAEDD3202B79D712001B06C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEDD3212B79D712001B06C8 /* Build configuration list for PBXNativeTarget "Malaria Diagnostics AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEDD3222B79D712001B06C8 /* Debug */,
+				BAEDD3232B79D712001B06C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAEDD2EF2B79D711001B06C8 /* Project object */;
+}
