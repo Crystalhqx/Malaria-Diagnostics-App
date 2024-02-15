@@ -188,6 +188,6 @@ struct PhotoCaptureView: UIViewControllerRepresentable {
     }
 }
 
-#Preview {
+Preview {
     ContentView()
 }
