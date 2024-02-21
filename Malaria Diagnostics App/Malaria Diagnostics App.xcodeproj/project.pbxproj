@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA81221D2B850ACF009D9649 /* GPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81221C2B850ACF009D9649 /* GPTAPI.swift */; };
+		BA8122222B856E53009D9649 /* DiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8122212B856E53009D9649 /* DiagnosticsView.swift */; };
+		BA8122242B8598C6009D9649 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8122232B8598C6009D9649 /* HomePageView.swift */; };
+		BA8122262B85A797009D9649 /* ImageAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8122252B85A797009D9649 /* ImageAnalysisView.swift */; };
 		BAEDD2FB2B79D711001B06C8 /* Malaria_Diagnostics_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDD2FA2B79D711001B06C8 /* Malaria_Diagnostics_AppApp.swift */; };
 		BAEDD2FD2B79D711001B06C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEDD2FC2B79D711001B06C8 /* ContentView.swift */; };
 		BAEDD2FF2B79D712001B06C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEDD2FE2B79D712001B06C8 /* Assets.xcassets */; };
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA81221C2B850ACF009D9649 /* GPTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTAPI.swift; sourceTree = "<group>"; };
+		BA81221E2B8567F1009D9649 /* Malaria-Diagnostics-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Malaria-Diagnostics-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BA8122212B856E53009D9649 /* DiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsView.swift; sourceTree = "<group>"; };
+		BA8122232B8598C6009D9649 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		BA8122252B85A797009D9649 /* ImageAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnalysisView.swift; sourceTree = "<group>"; };
 		BAEDD2F72B79D711001B06C8 /* Malaria Diagnostics App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Malaria Diagnostics App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEDD2FA2B79D711001B06C8 /* Malaria_Diagnostics_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Malaria_Diagnostics_AppApp.swift; sourceTree = "<group>"; };
 		BAEDD2FC2B79D711001B06C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,10 +103,15 @@
 		BAEDD2F92B79D711001B06C8 /* Malaria Diagnostics App */ = {
 			isa = PBXGroup;
 			children = (
+				BA81221E2B8567F1009D9649 /* Malaria-Diagnostics-App-Info.plist */,
 				BAEDD2FA2B79D711001B06C8 /* Malaria_Diagnostics_AppApp.swift */,
 				BAEDD2FC2B79D711001B06C8 /* ContentView.swift */,
 				BAEDD2FE2B79D712001B06C8 /* Assets.xcassets */,
 				BAEDD3002B79D712001B06C8 /* Preview Content */,
+				BA81221C2B850ACF009D9649 /* GPTAPI.swift */,
+				BA8122212B856E53009D9649 /* DiagnosticsView.swift */,
+				BA8122232B8598C6009D9649 /* HomePageView.swift */,
+				BA8122252B85A797009D9649 /* ImageAnalysisView.swift */,
 			);
 			path = "Malaria Diagnostics App";
 			sourceTree = "<group>";
@@ -257,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA81221D2B850ACF009D9649 /* GPTAPI.swift in Sources */,
 				BAEDD2FD2B79D711001B06C8 /* ContentView.swift in Sources */,
+				BA8122262B85A797009D9649 /* ImageAnalysisView.swift in Sources */,
 				BAEDD2FB2B79D711001B06C8 /* Malaria_Diagnostics_AppApp.swift in Sources */,
+				BA8122222B856E53009D9649 /* DiagnosticsView.swift in Sources */,
+				BA8122242B8598C6009D9649 /* HomePageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +442,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Malaria Diagnostics App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Malaria-Diagnostics-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Malaria Diagnostic App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +472,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Malaria Diagnostics App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Malaria-Diagnostics-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Malaria Diagnostic App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
