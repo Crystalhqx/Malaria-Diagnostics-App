@@ -218,25 +218,35 @@ struct ResultBoxView: View {
         result.lowercased().contains("positive") ? .green : .red
     }
     
+//    var body: some View {
+//        ScrollView {
+//            VStack(alignment: .leading) {
+//                Text(result)
+//                    .foregroundColor(.black)
+//            }
+//            .frame(maxWidth: 250, alignment: .leading)
+//            .background(Color.white)
+//            .overlay(
+//                RoundedRectangle(cornerRadius: 5)
+//                    .stroke(Color.gray, lineWidth: 1)
+//            )
+//            .cornerRadius(5)
+//            .padding([.leading, .trailing])
+//        }
+//        
+//        Text(statusMessage)
+//            .bold()
+//            .foregroundColor(statusColor)
+//    }
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading) {
-                Text(result)
-                    .foregroundColor(.black)
-            }
-            .frame(maxWidth: 250, alignment: .leading)
-            .background(Color.white)
-            .overlay(
-                RoundedRectangle(cornerRadius: 5)
-                    .stroke(Color.gray, lineWidth: 1)
-            )
-            .cornerRadius(5)
-            .padding([.leading, .trailing])
+            Text(statusMessage)
+                .bold()
+                .foregroundColor(statusColor)
+                .padding()
+                .frame(alignment: .center)
+                .background(Color.white)
+                .cornerRadius(10)
+                .padding(.top, 20)
         }
-        
-        Text(statusMessage)
-            .bold()
-            .foregroundColor(statusColor)
-    }
 }
 
