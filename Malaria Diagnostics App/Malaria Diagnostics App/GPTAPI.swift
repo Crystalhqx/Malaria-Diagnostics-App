@@ -8,7 +8,7 @@
 import Foundation
 
 class GPTAPI {
-    let apiKey = "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"
+    let apiKey = Config.apiKey
     let session = URLSession.shared
     let apiUrlString = "https://api.openai.com/v1/chat/completions"
 
