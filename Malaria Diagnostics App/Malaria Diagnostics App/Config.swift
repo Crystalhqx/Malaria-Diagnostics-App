@@ -8,5 +8,5 @@
 import Foundation
 
 struct Config {
-    static let apiKey = "REPLACE WITH YOUR API KEY"
+    static let apiKey = "Using-system-environment"
 }
